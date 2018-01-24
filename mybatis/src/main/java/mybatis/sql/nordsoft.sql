@@ -2,7 +2,7 @@ CREATE DATABASE `nordsoft`;
 
 USE nordsoft;
 
-CREATE TABLE `user1` (
+CREATE TABLE `user` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
   `userName` varchar(10) DEFAULT NULL,
   `age` int(11) DEFAULT NULL,
