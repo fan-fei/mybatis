@@ -10,7 +10,7 @@ import mybatis.domain.User;
 
 public interface UserMapper {
 
-    @Select("select * from user1")
+    @Select("select * from user")
     public List<User> getUserList();
 
     @Insert("insert into user1 (userName,age) values(#{userName},#{age})")
